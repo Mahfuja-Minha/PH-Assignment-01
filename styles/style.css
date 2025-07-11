@@ -118,11 +118,12 @@ main {
 .review p,
 .productiv p,
 .productiv h1,
-.ready p ,.form-section form label,input,textarea{
+.ready p ,.form-section form label,input,textarea,footer h1,footer p,li{
   font-family: "Inter", sans-serif;
 }
 .card-section h3 {
   text-align: center;
+  margin-bottom: 40px;
 }
 .card {
   width: 320px;
@@ -202,7 +203,7 @@ p {
   align-items: center;
   padding: 71px 0;
   width: 1140px;
-  margin: 120px auto;
+  margin: 100px auto;
 }
 .form-section h1{
   font-weight: 700;
@@ -223,4 +224,26 @@ input,textarea{
 }
 form .btn {
   width: 100%;
+}
+footer li,p{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+}
+footer ul{
+  display: flex;
+  gap:35px;
+  justify-content: center;
+  margin-top: 20px;
+}
+footer h1{
+  color: #4e47ff;
+  font-size: 100px;
+  font-weight: 900;
+}
+footer{
+  width: 531px;
+  text-align: center;
+  margin: 100px auto;
 }
