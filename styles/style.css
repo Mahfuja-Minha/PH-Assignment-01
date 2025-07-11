@@ -1,46 +1,75 @@
-*{
-     font-family: "Raleway", sans-serif;
-     margin: 0px;
-     padding: 0px;
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
-header{
-    background-image: url('../Assets/Hero-bg.png');
-    /* min-width: 1440px; */
-    height: 698px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 158px;
+header {
+  background-image: url("../Assets/Hero-bg.png");
+  /* min-width: 1440px; */
+  height: 698px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 158px;
 }
-nav h1{
-    color:  #4E47FF;
-    font-size: 34px;
-    font-weight: 900;
-    font-family: "Inter", sans-serif;
+nav h1 {
+  color: #4e47ff;
+  font-size: 34px;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
 }
-.btn{
-    color: white;
-    background-color: #4E47FF;
-    border-radius: 10px;
-    padding: 12px 36px;
-    border: none;
-    font-weight: bold;
-    font-size: 16px;
+.btn {
+  color: white;
+  background-color: #4e47ff;
+  border-radius: 10px;
+  padding: 12px 36px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 0px;
-    margin: 0px auto;
-    width: 80%;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+  margin: 0px auto;
+  width: 80%;
 }
-.banner{
-    margin: 0px auto;
-    width: 55%;
+.banner {
+  margin: 0px auto;
+  width: 55%;
 }
-.banner-title{
-    color: #252432;
-    font-weight: bold;
-    font-size: 65px;
-    margin-bottom: 37px;
+.banner-title {
+  color: #252432;
+  font-weight: bold;
+  font-size: 65px;
+  margin-bottom: 37px;
+}
+
+.action-section {
+  display: flex;
+  width: 1140px;
+  height: 328px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px auto;
+}
+.action-right img{
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+.action-left{
+    width: 45%;
+}
+.action-left h3 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 23px;
+}
+.action-left p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #25243250;
+  margin-bottom: 23px;
 }
