@@ -25,6 +25,10 @@ nav h1 {
   border: none;
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: yellowgreen;
 }
 nav {
   display: flex;
