@@ -118,7 +118,7 @@ main {
 .review p,
 .productiv p,
 .productiv h1,
-.ready p {
+.ready p ,.form-section form label,input,textarea{
   font-family: "Inter", sans-serif;
 }
 .card-section h3 {
@@ -195,4 +195,32 @@ p {
   background-color: #ffffff;
   border-radius: 14px;
   margin: 0 auto;
+}
+
+.form-section{
+  display: flex;
+  align-items: center;
+  padding: 71px 0;
+  width: 1140px;
+  margin: 120px auto;
+}
+.form-section h1{
+  font-weight: 700;
+  font-size: 97px;
+}
+.form-section form label{
+  font-size: 18px;
+  font-weight: 500;
+}
+input,textarea{
+  padding: 20px 32px;
+  border-radius: 10px;
+  border: 1px solid #D6DDED;
+  width: 430px;
+  font-size: 20px;
+  font-size: 400;
+  color: #00000050;
+}
+form .btn {
+  width: 100%;
 }
