@@ -43,7 +43,9 @@ nav {
   font-size: 65px;
   margin-bottom: 37px;
 }
-
+main {
+  background-color: #f5f8ff;
+}
 .action-section {
   display: flex;
   width: 1140px;
@@ -51,6 +53,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 100px auto;
+  margin-top: 0px;
+  padding-top: 100px;
 }
 .action-right img {
   width: 403px;
@@ -113,7 +117,8 @@ nav {
 .review h5,
 .review p,
 .productiv p,
-.productiv h1 {
+.productiv h1,
+.ready p {
   font-family: "Inter", sans-serif;
 }
 .card-section h3 {
@@ -165,4 +170,29 @@ p {
   color: #1e1e1e;
   font-weight: 600;
   font-size: 24px;
+}
+.ready h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.ready p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #00000050;
+}
+.ready img {
+  width: 840px;
+  height: 365px;
+  border-radius: 48px;
+}
+.ready {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 840px;
+  gap: 20px;
+  padding: 61px 150px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  margin: 0 auto;
 }
